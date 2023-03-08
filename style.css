@@ -4,7 +4,29 @@ body{
     text-align: center  ;
 }
 
-h1:hover{
-    color: rgb(255, 255, 255);
+
+main{
+    height: auto;
+    width: 90%;
+    background-color: aliceblue;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 1rem;
+    margin-top: 2rem;
 }
 
+main{
+    color: rgba(255, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+
+}
+
+main:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    
+}
+
+h1  {
+    box-shadow: 2px 2px;
+}
