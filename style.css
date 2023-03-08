@@ -1,0 +1,10 @@
+body{
+    background-color: cornflowerblue;
+    font-size: 2rem;
+    text-align: center  ;
+}
+
+h1:hover{
+    color: rgb(255, 255, 255);
+}
+
