@@ -15,15 +15,10 @@ main{
     margin-top: 2rem;
 }
 
-main{
-    color: rgba(255, 0, 0, 0);
-    background-color: rgba(255, 255, 255, 0);
-
-}
-
 main:hover{
     background-color: rgb(255, 255, 255);
     color: black;
+    
     
 }
 
