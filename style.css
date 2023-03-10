@@ -25,3 +25,16 @@ main:hover{
 h1  {
     box-shadow: 2px 2px;
 }
+
+#p1{   
+    font-style:italic;
+    font
+}
+
+hr{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border: 5px solid black;
+    border-radius: 5px;
+    
+}
