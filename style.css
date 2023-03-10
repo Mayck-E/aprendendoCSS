@@ -1,7 +1,8 @@
 body{
-    background-color: cornflowerblue;
     font-size: 2rem;
-    text-align: center  ;
+    text-align: center;
+    margin: 0px;
+    animation-name: example;
 }
 
 
@@ -24,17 +25,28 @@ main:hover{
 
 h1  {
     box-shadow: 2px 2px;
+    background-color: aliceblue;
+    margin-top: 0px;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    animation-name: h1;
+    animation-duration: 5s;
 }
 
-#p1{   
+
+#p1 {   
     font-style:italic;
-    font
 }
 
 hr{
     margin-left: 5rem;
     margin-right: 5rem;
-    border: 5px solid black;
+    border: 2px solid;
     border-radius: 5px;
-    
+    animation-name: hr;
 }
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
