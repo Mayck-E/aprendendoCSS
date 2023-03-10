@@ -17,7 +17,7 @@ body{
 }
 
 .conteudo{
-    background-color: aliceblue;
+    background-color: rgba(240, 248, 255, 0.9);
     border-radius: 10px;
     padding: 1rem;
     text-align: justify;
