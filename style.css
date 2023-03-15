@@ -3,6 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
     font-family: candara;
+    
 }
 
 body{
@@ -11,10 +12,11 @@ body{
     padding-right: 20rem;
     padding-left: 20rem;
     background-repeat: no-repeat;
-    background-image: linear-gradient(to left, rgb(169, 169, 169), rgb(131, 131, 131), rgb(78, 78, 78), rgb(22, 22, 22), rgb(78, 78, 78), rgb(131, 131, 131), rgb(169, 169, 169);
-	background-size:500% 100%;
-	animation: degrade-animado 5s infinite reverse;
-    
+    background-image: url(pexels-alexas-fotos-2220337.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 100%;
+    min-height: auto;
 }
 
 article{
@@ -40,14 +42,12 @@ p{
 
 footer{
     color: aliceblue;
+    vertical-align: middle;
 }
 
+body:{
 
-@keyframes degrade-animado {
-	0%{
-		background-position-x: 0%;
-	}
-	100%{
-		background-position-x: 100%;
-	}
+    transition: transform .2s;
+    background-size: 105.5%
+
 }
